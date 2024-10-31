@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Pet Supplies - Adopt&Adore</title>
+    <link rel="stylesheet" href="css\supplies.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <header>
+        <div class="hcontainer">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="logo.png" alt="A&ALogo"></a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="adoption.html">Adopt</a></li>
+                    <li><a href="supplies.html">Supplies</a></li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="#contact-section">Contact</a></li>
+                </ul>
+                <div class="nav-right">
+                    <div class="nav-cart">
+                        <a href="supplies.html#cart-section">Cart</a>
+                    </div>
+                    <div class="profile-icon">
+                        <img src="profile-icon.png" alt="Profile" class="profile-op">
+                        <div class="dropdown-content">
+                            <a href="login.html">Login</a>
+                            <a href="regform.html">Register</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="sphrcontainer">
+            <h1>Shop Supplies for your Furry Friend</h1>
+            <p>Equip your furry friend with everything they need for a happy and healthy life. Shop our wide selection of supplies to ensure their comfort and joy!</p>
+        </div>
+    
+        <div class="title">
+            <h1>Browse Pet Supplies</h1>
+        </div>
+
+        <section class="supplies-list">
+            <div class="spcontainer">
+                <div class="products">
+                    <div class="product-card" id="dogfood">
+                        <img src="spimg/dogfood.jpeg" alt="Dog Food">
+                        <h3>Pedigree Roasted Chicken & Vegetable Flavour</h3>
+                        <p>High-quality food for your dog.</p>
+                        <p class="price">Rs. 5,120/-</p>
+                        <div class="product-info">
+                            <label for="quantity-dogfood">Quantity: </label>
+                            <input type="number" id="quantity-dogfood" name="quantity" min="1"  max="100" value="1">
+                            <button class="cart-btn" data-product="Pedigree Roasted Chicken & Vegetable Flavour" data-price="5120" data-quantity="quantity-dogfood">Add to Cart</button>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card" id="catlitter">
+                        <img src="spimg/catlitter.png" alt="Premium Cat Litter - Sandal Flavour">
+                        <h3>Premium Cat Litter - Sandal Flavour</h3>
+                        <p>Keep your cat's space clean and odor-free.</p>
+                        <p class="price">Rs. 425/-</p>
+                        <div class="product-info">
+                            <label for="quantity-catlitter">Quantity: </label>
+                            <input type="number" id="quantity-catlitter" name="quantity" min="1"  max="100" value="1">
+                            <button class="cart-btn" data-product="Premium Cat Litter - Sandal Flavour" data-price="425" data-quantity="quantity-catlitter">Add to Cart</button>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card" id="dogtoy">
+                        <img src="spimg/dogtoy.jpg" alt="Pet Toys">
+                        <h3>Interactive Playbone Toy for Dogs</h3>
+                        <p>Fun toys to keep your dogs entertained.</p>
+                        <p class="price">Rs. 286/-</p>
+                        <div class="product-info">
+                            <label for="quantity-dogtoy">Quantity: </label>
+                            <input type="number" id="quantity-dogtoy" name="quantity" min="1"  max="100" value="1">
+                            <button class="cart-btn" data-product="Interactive Playbone Toy for Dogs" data-price="286" data-quantity="quantity-dogtoy">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products">
+                    <div class="product-card" id="catfood">
+                        <img src="spimg/catfood.jpg" alt="Cat Food">
+                        <h3>Whiskas Tuna and Kanikama Wet Food</h3>
+                        <p>High-quality food for your cat.</p>
+                        <p class="price">Rs. 285/-</p>
+                        <div class="product-info">
+                            <label for="quantity-catfood">Quantity: </label>
+                            <input type="number" id="quantity-catfood" name="quantity" min="1" max="100" value="1">
+                            <button class="cart-btn" data-product="Whiskas Tuna and Kanikama Wet Food" data-price="285" data-quantity="quantity-catfood">Add to Cart</button>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card" id="vitcalsupp">
+                        <img src="spimg/vitcalsupp.jpg" alt="Vitamin and Calcium Supplements">
+                        <h3>Vitamin and Calcium Supplements Tablets</h3>
+                        <p>Ensure your dog enjoys optimal health with Vitamin and Calcium Supplements Tablets.</p>
+                        <p class="price">Rs. 852/-</p>
+                        <div class="product-info">
+                            <label for="quantity-vitcalsupp">Quantity: </label>
+                            <input type="number" id="quantity-vitcalsupp" name="quantity" min="1"  max="100" value="1">
+                            <button class="cart-btn" data-product="Vitamin and Calcium Supplements Tablets" data-price="852" data-quantity="quantity-vitcalsupp">Add to Cart</button>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card" id="cattoy">
+                        <img src="spimg/cattoy.jpg" alt="Cat Toy">
+                        <h3>Noodle Training Toy Ball for Dogs and Cats</h3>
+                        <p>Fun toys to keep your cats entertained.</p>
+                        <p class="price">Rs. 499/-</p>
+                        <div class="product-info">
+                            <label for="quantity-cattoy">Quantity: </label>
+                            <input type="number" id="quantity-cattoy" name="quantity" min="1"  max="100" value="1" >
+                            <button class="cart-btn" data-product="Noodle Training Toy Ball for Dogs and Cats" data-price="499" data-quantity="quantity-cattoy">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cart" id="cart-section">
+            <h2>Your Cart</h2>
+            <div id="cart-items"></div>
+            <p id="total-price">Total: Rs. 0/-</p>
+            <div class="cart-buttons">
+                <button id="clear-cart-btn">Clear Cart</button>
+                <button id="checkout-btn">Checkout</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h4 class="footer-title">Contact Us</h4>
+        <div class="contact-info">
+            <p>Email: adopt&adore@gmail.com</p>
+            <p>Phone No: 022 2785496</p>
+        </div>
+        <div class="footer-right">
+            <p>&copy; 2024 Adopt & Adore. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js\checkout.js"></script>
+</body>
+</html>

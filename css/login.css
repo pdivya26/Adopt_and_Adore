@@ -1,0 +1,254 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+    display: flex;                
+    flex-direction: column;       
+    min-height: 100vh; 
+}
+
+/* Header */
+header {
+    padding: 12px 0;
+    background-color: #9c8762;
+    text-align: left;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: left;
+    justify-content: space-between; 
+    height: 36px;
+}
+
+.logo img {
+    height: 40px; 
+    margin-left: 10px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    height: 33px;
+}
+
+.nav-links li {
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 20px;
+}
+
+.nav-links a:hover {
+    background-color: #6b5f4a;
+    border-radius: 5px;
+}
+
+/* Cart Link */
+
+.nav-right {
+    display: flex;
+    list-style: none;
+    height: 33px;
+}
+
+.nav-cart {
+    display: inline-block;
+    margin-right: 30px; 
+}
+
+.nav-cart a {
+    text-decoration: none; 
+    color: #fff; 
+    font-weight: bold; 
+    padding: 8px 20px; 
+    transition: background-color 0.3s ease; 
+}
+
+.nav-cart a:hover {
+    background-color: #6b5f4a; 
+    border-radius: 5px; 
+}
+
+/* Profile Icon */
+.profile-icon {
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+.profile-icon img {
+    height: 36px; 
+    border-radius: 50%; 
+    transition: transform 0.3s ease;
+}
+
+.profile-icon img:hover {
+    transform: scale(1.05); 
+    border-radius: 50%;
+    color: #a79982;
+}
+.profile-icon {
+    position: relative;
+    display: inline-block;
+    width: 36px;
+}
+
+.profile-icon:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    align-items: center;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    top: 110%; 
+    z-index: 1;
+    left: -85px;
+}
+
+.dropdown-content a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding: 6px 8px;
+    text-align: center;
+    width: 130px;
+}
+
+.dropdown-content a:hover {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    padding: 4px 6px;
+}
+
+.form-container {
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    text-align: center;
+    color: #333;
+}
+
+form {
+    background-color: #9c8762; 
+    border-radius: 10px;
+    padding: 20px;
+    width:40%;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display:block;
+}
+
+.form-container {
+    width: 100%;
+    margin: auto;
+    padding: 15px 0;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    width: 85%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f8faff; 
+    color: #333;
+    margin-bottom: 15px; 
+    align-self: center;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100px;
+    background-color: #523f20;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 auto;
+}
+
+input[type="submit"]:hover {
+    background-color: #34260f;
+    color: #ffffff;
+}
+
+.form-footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form-footer p {
+    font-weight: bold;
+    margin: 10px;
+}
+
+.form-footer a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Footer Section*/
+footer {
+    background-color: #9c8762; 
+    padding: 10px 0;
+    text-align: center;
+    margin-top: auto;
+}
+
+.footer-title {
+    margin-top: 10px;
+    color: #fff; 
+}
+
+.contact-info p {
+    margin-top: 5px;
+    color: #fff;
+}
+
+.footer-right p {
+    margin-top: 5px;
+    color: #fff;
+}

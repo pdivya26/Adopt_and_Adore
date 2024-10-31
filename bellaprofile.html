@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Profile - Adopt & Adore</title>
+    <link rel="stylesheet" href="css\bellaprofile.css">
+</head>
+<body>
+    <header>
+        <div class="hcontainer">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="logo.png" alt="A&ALogo"></a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="adoption.html">Adopt</a></li>
+                    <li><a href="supplies.html">Supplies</a></li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="#contact-section">Contact</a></li>
+                </ul>
+                <div class="nav-right">
+                    <div class="nav-cart">
+                        <a href="supplies.html#cart-section">Cart</a>
+                    </div>
+                    <div class="profile-icon">
+                        <img src="profile-icon.png" alt="Profile" class="profile-op">
+                        <div class="dropdown-content">
+                            <a href="login.html">Login</a>
+                            <a href="regform.html">Register</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="bgcontainer">
+        <h2>Bella</h2>
+        <section class="pet-profile">
+            <div class="profile-container">
+                <div class="profile-image">
+                    <img src="adimg/bella.png" alt="Bella">
+                </div>
+                <div class="profile-details">
+                    <p><strong>Breed:</strong> Labrador</p>
+                    <p><strong>Age:</strong> 2 months</p>
+                    <p><strong>Gender:</strong> Female</p>
+                    <p><strong>Description:</strong> Bella is a playful and affectionate puppy looking for a loving home. She loves to run around and is great with kids and other pets.</p>
+                    <p><strong>Health:</strong> Vaccinated and dewormed. No known health issues.</p>
+                    <button class="btn-adopt" onclick="adoptPet('Bella')">Adopt</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="pet-gallery">
+            <h3>More Photos of Bella</h3>
+            <div class="gallery-container">
+                <img src="adimg/bella1.jpg" alt="Bella Image 1">
+                <img src="adimg/bella2.jpg" alt="Bella Image 2">
+                <img src="adimg/bella3.jpg" alt="Bella Image 3">
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <h4 class="footer-title">Contact Us</h4>
+        <div class="contact-info">
+            <p>Email: adopt&adore@gmail.com</p>
+            <p>Phone No: 022 2785496</p>
+        </div>
+        <div class="footer-right">
+            <p>&copy; 2024 Adopt & Adore. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js\adoption.js"></script>
+</body>
+</html>
