@@ -5,6 +5,6 @@ The Pet Adoption Agency Website is a user-friendly platform that showcases avail
 
 ![Screenshot 2024-10-23 000747](https://github.com/user-attachments/assets/bfa345ca-d643-4fd0-9dbe-eef0d1328142)
 
-![Screenshot 2024-10-23 000805](https://github.com/user-attachments/assets/5b347069-2358-4471-bcce-65b9c552da99)
+![Screenshot 2024-10-23 001146](https://github.com/user-attachments/assets/1231980a-3ed1-4efc-93a2-52035929bd2a)
 
-![Screenshot 2024-10-23 000817](https://github.com/user-attachments/assets/0f8761aa-4ab2-41ae-96e1-144bd8c6d99a)
+![Screenshot 2024-10-23 001104](https://github.com/user-attachments/assets/4ab3eec7-33d0-4fe6-95ed-549fcd37522d)
